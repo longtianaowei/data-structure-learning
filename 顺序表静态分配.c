@@ -116,7 +116,7 @@ int main() {
     }
     int upposition = Update(&list,30,33);
      if (upposition != -1) {
-        printf("元素30的已被更新,新的顺序表为");
+        printf("元素30已被更新,新的顺序表为");
         PrintList(list);
     } else {
         printf("元素30不在顺序表中。\n");
